@@ -11,7 +11,7 @@ function Character(name, health, attackPower, counterAttackPower, imageFileName)
 var characters = [];
 
 //create each Character
-var rey = new Character("Rey", 120, 8, 15, "rey.jpg");
+var rey = new Character("Rey", 120, 10, 17, "rey.jpg");
 var darthVader = new Character("Darth Vader", 180, 8, 15, "darth_vader.jpg");
 var leia = new Character("Leia", 130, 7, 30, "leia.jpg");
 var darthMaul = new Character("Darth Maul", 160, 9, 10, "darth_maul.jpg");
@@ -30,7 +30,7 @@ for (var i = 0; i < characters.length; i++) {
 	var f = characters[i].imageFileName;
 	var $div = $("<div>").attr("id", n).addClass("col-xs-3 col-sm-2 text-center character");
 	$div.append(($("<p></p>").addClass("name").text(n)));
-	$div.append(($("<img>").attr("src", "assets/images/" + f).addClass("img-responsive character-portrait")));
+	$div.append(($("<img>").attr("src", "assets/images/" + f).addClass("img-responsive text-center character-portrait")));
 	$div.append(($("<p></p>").addClass("health").text(h)));
 	$(".character-row").append($div);
 }

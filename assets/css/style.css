@@ -5,8 +5,10 @@ body {
 	background-size: 100% auto;
 }
 
-h2 {
+h1, h2 {
 	color: orange;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 div.message {
@@ -14,9 +16,14 @@ div.message {
 	background-color: black;
 }
 
+.row {
+	background-color: gray;
+}
+
 .character-portrait {
 	/*width: 155px;*/
-	/*height: 90px;*/
+	height: 90px;
+	margin: 0 auto;
 }
 .character, .player {
 	background-color: white;

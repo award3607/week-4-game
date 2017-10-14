@@ -1,6 +1,25 @@
+body {
+	background-image: url("../images/space_battle_background.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% auto;
+}
+
+h2 {
+	color: orange;
+}
+
+div.message {
+	color: orange;
+	background-color: black;
+}
+
 .character-portrait {
 	/*width: 155px;*/
 	/*height: 90px;*/
+}
+.character, .player {
+	background-color: white;
 }
 
 .player, .character, .target {
@@ -15,4 +34,8 @@
 .target {
 	color: white;
 	background-color: black;
+}
+
+#button-restart {
+	visibility: hidden;
 }

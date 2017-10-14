@@ -11,7 +11,7 @@ function Character(name, health, attackPower, counterAttackPower, imageFileName)
 var characters = [];
 
 //create each Character
-var rey = new Character("Rey", 120, 10, 17, "rey.jpg");
+var rey = new Character("Rey", 120, 10, 16, "rey.jpg");
 var darthVader = new Character("Darth Vader", 180, 8, 15, "darth_vader.jpg");
 var leia = new Character("Leia", 130, 7, 30, "leia.jpg");
 var darthMaul = new Character("Darth Maul", 160, 9, 10, "darth_maul.jpg");
